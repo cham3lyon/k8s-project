@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/cham3lyon/k8s-project.git
     targetRevision: HEAD
-    path: 
+    path: manifests/my-sample-app
   destination:
     server: https://kubernetes.default.svc
     namespace: default
